@@ -1,17 +1,14 @@
+import React, { useReducer, useState, useMemo } from 'react';
 
-// export default App
-import React, { useReducer, useState } from 'react';
-
-// Reducer xử lý các phép tính
 const calculatorReducer = (state, action) => {
   const { type, payload } = action;
   const { number1, number2 } = payload;
 
   switch (type) {
     case 'ADD':
-      return { result: number1 + number2 };// thực hiện phép cộng
+      return { result: number1 + number2 };
     case 'SUBTRACT':
-      return { result: number1 - number2 }; // thực hiện phép trừ
+      return { result: number1 - number2 };
     case 'MULTIPLY':
       return { result: number1 * number2 };
     case 'DIVIDE':
@@ -36,9 +33,11 @@ function App() {
     });
   };
 
+  const memoizedResult = useMemo(() => state.result, [state.result]);
+
   return (
     <div style={{ padding: 20 }}>
-      <h2>🧮 Máy tính đơn giản (useReducer)</h2>
+      <h2>🧮 Máy tính đơn giản (useReducer & useMemo)</h2>
       <input
         type="number"
         value={number1}
@@ -58,7 +57,7 @@ function App() {
         <button onClick={() => handleCalculate('MULTIPLY')}>×</button>
         <button onClick={() => handleCalculate('DIVIDE')}>÷</button>
       </div>
-      <h3 style={{ marginTop: 20 }}>Kết quả: {state.result}</h3>
+      <h3 style={{ marginTop: 20 }}>Kết quả: {memoizedResult}</h3>
     </div>
   );
 }

@@ -10,7 +10,6 @@ const dishes = [
   { id: 4, name: 'Dish 4', price: 25, description: 'Description 4', image: '../img/img.jpg' },
   { id: 5, name: 'Dish 5', price: 35, description: 'Description 5', image: '../img/img.jpg' },
   { id: 6, name: 'Dish 6', price: 50, description: 'Description 6', image: '../img/img.jpg' },
-  // Add more dishes here
 ];
 
 function Menu() {
@@ -44,3 +43,16 @@ function Menu() {
 export default Menu;
 
 
+// import React from 'react';
+// import MenuList from '../components/MenuList';
+
+// const Menu = () => {
+//   return (
+//     <div>
+//       <h1>Our Menu</h1>
+//       <MenuList />
+//     </div>
+//   );
+// };
+
+// export default Menu;

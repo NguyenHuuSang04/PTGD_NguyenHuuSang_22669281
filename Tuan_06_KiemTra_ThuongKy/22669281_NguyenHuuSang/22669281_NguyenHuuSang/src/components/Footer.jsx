@@ -12,3 +12,18 @@ function Footer() {
 
 export default Footer;
 
+
+
+// import React from 'react';
+
+// const Footer = () => {
+//   return (
+//     <footer>
+//       <p>Tên: Nguyễn Hữu Sang</p>
+//       <p>Lớp: PTGD</p>
+//       <p>Mã sinh viên: 22669281</p>
+//     </footer>
+//   );
+// };
+
+// export default Footer;
