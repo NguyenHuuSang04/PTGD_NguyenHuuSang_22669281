@@ -1,0 +1,13 @@
+[
+    {"id": 1, "name":"món 1", "description" : "mô tả 1", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 2, "name":"món 2", "description" : "mô tả 2", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 3, "name":"món 3", "description" : "mô tả 3", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 4, "name":"món 4", "description" : "mô tả 4", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 5, "name":"món 5", "description" : "mô tả 5", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 6, "name":"món 6", "description" : "mô tả 6", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 7, "name":"món 7", "description" : "mô tả 7", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 8, "name":"món 8", "description" : "mô tả 8", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 9, "name":"món 9", "description" : "mô tả 9", "price":100, "img":"../img/img.jpg"}, 
+    {"id": 10, "name":"món 10", "description" : "mô tả 10", "price":100, "img":"../img/img.jpg"}
+
+]

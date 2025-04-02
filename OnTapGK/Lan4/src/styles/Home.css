@@ -1,0 +1,5 @@
+.carousel-imageHome {
+    max-width: 100%;
+    max-height: 75vh;
+    object-fit: cover;
+}
