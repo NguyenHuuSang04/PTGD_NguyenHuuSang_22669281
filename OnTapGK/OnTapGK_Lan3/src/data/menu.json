@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Dish 1", "price": 10000, "description": "Description 1", "image": "../img/img.jpg" },
+  { "id": 2, "name": "Dish 2", "price": 15, "description": "Description 2", "image": "../img/img.jpg" },
+  { "id": 3, "name": "Dish 3", "price": 10, "description": "Description 3", "image": "../img/img.jpg" },
+  { "id": 4, "name": "Dish 4", "price": 25, "description": "Description 4", "image": "../img/img.jpg" },
+  { "id": 5, "name": "Dish 5", "price": 35, "description": "Description 5", "image": "../img/img.jpg" },
+  { "id": 6, "name": "Dish 6", "price": 50, "description": "Description 6", "image": "../img/img.jpg" }
+]

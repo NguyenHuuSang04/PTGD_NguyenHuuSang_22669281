@@ -1,0 +1,98 @@
+1. // main.jsx là khởi đầu cua ứng dụng. Sử dụng ReactDOM để render component gốc (App) vào phẩn tử DOM có id là root
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <Router>
+    <App />
+  </Router>
+);
+
+BrowserRouter từ react-router-dom được sử dụng để bao bọc component App, 
+cho phép sử dụng các tính năng điều hướng của React Router trong toàn bộ ứng dụng.
+
+// 2. App.js Đây là component gốc của ứng dụng. Nó chứa cấu trúc điều hướng và các route để điều hướng đến các trang khác nhau.
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
+import Contact from './pages/Contact';
+import DishDetail from './pages/DishDetail';
+import BookTable from './components/BookTable';
+import { OrderProvider } from './context/OrderContext';
+
+function App() {
+  return (
+    <OrderProvider>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/menu/:id" element={<DishDetail />} />
+        <Route path="/book-table" element={<BookTable />} />
+      </Routes>
+      <Footer />
+    </OrderProvider>
+  );
+}
+
+export default App;
+
+OrderProvider bao bọc toàn bộ ứng dụng để cung cấp ngữ cảnh (context) cho việc quản lý đơn hàng.
+Header và Footer là các component hiển thị ở đầu và cuối trang.
+Routes chứa các Route để định nghĩa các đường dẫn và component tương ứng.
+
+3. Header.jsx: Đây là component hiển thị thanh điều hướng ở đầu trang.
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Navbar, Nav, Button } from 'react-bootstrap';
+import './Header.css';
+
+function Header() {
+  return (
+    <Navbar bg="light" expand="lg">
+      <Navbar.Brand href="/">ABC Restaurant</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link as={Link} to="/" className="nav-link">Trang chủ</Nav.Link>
+          <Nav.Link as={Link} to="/menu" className="nav-link">Thực đơn</Nav.Link>
+          <Nav.Link as={Link} to="/contact" className="nav-link">Liên hệ</Nav.Link>
+        </Nav>
+        <Button as={Link} to="/book-table" variant="outline-success">Book Table</Button>
+      </Navbar.Collapse>
+    </Navbar>
+  );
+}
+
+export default Header;
+
+Navbar, Nav, và Button từ react-bootstrap được sử dụng để tạo thanh điều hướng.
+Link từ react-router-dom được sử dụng để điều hướng giữa các trang mà không cần tải lại trang.
+
+4. OrderContext.jsx: Đây là file quản lý ngữ cảnh (context) cho đơn hàng.
+OrderContext được tạo ra để lưu trữ trạng thái đơn hàng.
+useOrder là một custom hook để truy cập vào ngữ cảnh này.
+OrderProvider bao bọc các component con và cung cấp giá trị ngữ cảnh cho chúng.
+
+
+5. MenuList.jsx: Đây là component hiển thị danh sách các món ăn.
+dishes được nhập từ menu.json và chứa danh sách các món ăn.
+useOrder được sử dụng để truy cập vào ngữ cảnh đơn hàng và thêm món ăn vào đơn hàng.
+
+6. DishDetail.jsx: Đâylà component hiển thị chi tiết của 1 món ăn
+useParams từ react-router-dom được sử dụng để lấy tham số id từ URL.
+dishes được nhập từ menu.json và chứa danh sách các món ăn.
+
+7. BookTable.jsx: Đây là component hiển thị form đặt bàn.
+useState được sử dụng để quản lý trạng thái của các trường nhập liệu.
+
+8. menu.json: Đây là file chứa danh sách các món ăn.
+Tệp này được nhập vào các component như MenuList và DishDetail để hiển thị danh sách các món ăn và chi tiết món ăn.
