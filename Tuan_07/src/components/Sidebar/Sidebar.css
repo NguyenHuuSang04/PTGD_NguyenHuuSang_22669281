@@ -29,7 +29,7 @@
   font-weight: 500;
 } */
 
-.menu-item {
+/* .menu-item {
     display: flex;
     align-items: center; 
     justify-content: flex-start;    
@@ -39,7 +39,7 @@
     cursor: pointer;
     color: #333;
     font-weight: 500;
-  }
+  } */
 
 
   .menu-item img {
@@ -62,11 +62,11 @@
   text-align: center;
 }
 
-.version {
+/* .version {
   font-size: 14px;
   color: #888;
   margin-bottom: 10px;
-}
+} */
 
 .try-now {
   background-color: #ff6b6b;
