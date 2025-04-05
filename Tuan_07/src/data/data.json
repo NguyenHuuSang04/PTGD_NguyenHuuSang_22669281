@@ -4,7 +4,7 @@
       "avatar": "/src/img/Avatar (1).png",
       "name": "Elizabeth Lee",
       "company": "AvatarSystems",
-      "order_value": "435",
+      "order_value": "440",
       "order_date": "10/07/2023",
       "status": "New",
       "id": "0cd9"
@@ -267,6 +267,15 @@
       "company": "abc",
       "order_value": "750",
       "order_date": "2004-05-13",
+      "status": "New",
+      "avatar": "/src/img/default-avatar.png"
+    },
+    {
+      "id": "3410",
+      "name": "Hương2",
+      "company": "abc",
+      "order_value": "750",
+      "order_date": "2025-04-30",
       "status": "New",
       "avatar": "/src/img/default-avatar.png"
     }
