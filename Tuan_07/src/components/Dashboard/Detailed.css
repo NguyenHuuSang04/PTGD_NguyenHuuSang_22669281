@@ -1,0 +1,6 @@
+.p-paginator .p-highlight {
+    background-color: #f472b6 !important; /* Màu nền hồng */
+    color: white !important; /* Màu chữ trắng */
+    border-radius: 50%; /* Làm tròn số */
+    padding: 0.5rem; /* Khoảng cách bên trong */
+}
