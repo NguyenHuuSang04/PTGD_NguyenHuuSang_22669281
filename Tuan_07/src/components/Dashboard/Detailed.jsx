@@ -128,7 +128,7 @@ function Detailed() {
 
     return (
         <>
-            <div className="flex mt-5 mb-5 justify-between">
+            <div className="flex mt-5 mb-2 justify-between">
                 <div className="flex items-center">
                     <img src="/src/img/File text 1.png" alt="" className="w-7 h-7" />
                     <h1 className="font-bold ml-2 text-xl">Detailed report</h1>
@@ -152,7 +152,7 @@ function Detailed() {
                     <DataTable
                         value={customers} // Dữ liệu từ API
                         paginator
-                        rows={4}
+                        rows={5}
                         rowsPerPageOptions={[5, 10, 25, 50]}
                         tableStyle={{ minWidth: '50rem' }}
                         scrollable // Kích hoạt chế độ cuộn
