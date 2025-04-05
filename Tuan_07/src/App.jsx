@@ -7,6 +7,7 @@ import 'primeicons/primeicons.css';
 
 
 
+//sử dụng router
 function App() {
   return (
     <Routes>
