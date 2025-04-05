@@ -11,7 +11,7 @@ import 'primeicons/primeicons.css';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Dashboard />} />
+      <Route path="/" element={<Dashboard />} /> {/* Single Page Application */}
     </Routes>
   );
 }
