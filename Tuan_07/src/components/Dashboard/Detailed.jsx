@@ -174,7 +174,7 @@ function Detailed() {
                 <DataTable
                     value={customers} // Dữ liệu từ API
                     paginator
-                    rows={5}
+                    rows={4}
                     rowsPerPageOptions={[5, 10, 25, 50]}
                     tableStyle={{ minWidth: "50rem" }}
                     scrollable // Kích hoạt chế độ cuộn

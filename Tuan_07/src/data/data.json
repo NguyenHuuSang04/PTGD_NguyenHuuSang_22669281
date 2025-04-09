@@ -4,7 +4,7 @@
       "avatar": "/src/img/Avatar (1).png",
       "name": "Elizabeth Lee",
       "company": "AvatarSystems",
-      "order_value": "440",
+      "order_value": "450",
       "order_date": "10/07/2023",
       "status": "New",
       "id": "0cd9"
@@ -276,6 +276,69 @@
       "company": "abc",
       "order_value": "750",
       "order_date": "2025-04-30",
+      "status": "New",
+      "avatar": "/src/img/default-avatar.png"
+    },
+    {
+      "id": "1f79",
+      "name": "Sang Nguyen",
+      "company": "abc",
+      "order_value": "750",
+      "order_date": "2025-04-29",
+      "status": "New",
+      "avatar": "/src/img/default-avatar.png"
+    },
+    {
+      "id": "6f4c",
+      "name": "Nguyễn Hữu Sang",
+      "company": "abc",
+      "order_value": "750",
+      "order_date": "2025-04-29",
+      "status": "New",
+      "avatar": "/src/img/default-avatar.png"
+    },
+    {
+      "id": "2966",
+      "name": "Sang Nguyen",
+      "company": "abc",
+      "order_value": "750",
+      "order_date": "2025-04-22",
+      "status": "New",
+      "avatar": "/src/img/default-avatar.png"
+    },
+    {
+      "id": "9ac3",
+      "name": "Sang Nguyen",
+      "company": "abc",
+      "order_value": "750",
+      "order_date": "2025-04-07",
+      "status": "New",
+      "avatar": "/src/img/default-avatar.png"
+    },
+    {
+      "id": "d813",
+      "name": "Sang Nguyen",
+      "company": "abc",
+      "order_value": "750",
+      "order_date": "2025-04-07",
+      "status": "New",
+      "avatar": "/src/img/default-avatar.png"
+    },
+    {
+      "id": "eb0d",
+      "name": "Sang Nguyen",
+      "company": "abc",
+      "order_value": "750",
+      "order_date": "2025-04-14",
+      "status": "New",
+      "avatar": "/src/img/default-avatar.png"
+    },
+    {
+      "id": "100e",
+      "name": "Nguyễn Hữu Sang",
+      "company": "abc",
+      "order_value": "750",
+      "order_date": "2025-04-06",
       "status": "New",
       "avatar": "/src/img/default-avatar.png"
     }
