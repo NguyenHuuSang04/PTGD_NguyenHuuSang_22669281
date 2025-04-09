@@ -1,0 +1,79 @@
+/*10. Css Layout all admin app  */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* .menu-item {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 500;
+  } */
+  
+  /* .menu-item {
+      display: flex;
+      align-items: center; 
+      justify-content: flex-start;    
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #333;
+      font-weight: 500;
+    } */
+  
+  
+    .menu-item img {
+      margin-left: 10px; /* Add spacing between the icon and text */
+    }
+    
+    /* .menu-item.active {
+      background-color: #ff6b6b;
+      color: #fff;
+    } */
+  /*   
+    .menu-item:hover {
+      background-color:  #ff6b6b ;
+      transition-duration: 300ms;
+    } */
+  
+  
+  .footer {
+    margin-top: auto;
+    text-align: center;
+  }
+  
+  /* .version {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  } */
+  
+  .try-now {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
