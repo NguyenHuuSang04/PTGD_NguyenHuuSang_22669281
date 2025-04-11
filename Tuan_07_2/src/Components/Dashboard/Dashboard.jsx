@@ -7,7 +7,7 @@ import Detailed from "./Detailed";
 const Dashboard = () => {
     return (
         <div className="dashboard-grid">
-            <Sidebar />
+            <Sidebar />  {/*Css tailwind trong Dashboard*/}
             <header className="header flex justify-between items-center p-5 border-b-1">
                 <h1 className="text-pink-600 font-bold">Dashboard</h1>
 

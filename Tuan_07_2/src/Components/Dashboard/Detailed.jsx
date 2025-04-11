@@ -51,8 +51,9 @@ function Detailed() {
     const handleAdd = (newCustomer) => {
         setCustomers((prevCustomers) => [...prevCustomers, newCustomer]);
     };
+
     return (
-        <>
+        <>  {/*Css tailwind trong detailed*/}
             <div className="flex mt-5 mb-2 justify-between">
                 <div className="flex items-center">
                     <img src="/src/img/File text 1.png" alt="" className="w-7 h-7" />

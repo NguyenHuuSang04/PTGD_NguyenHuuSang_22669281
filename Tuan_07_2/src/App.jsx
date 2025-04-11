@@ -10,7 +10,6 @@ import 'primereact/resources/themes/lara-light-blue/theme.css';  // hoặc theme
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 
-//5. React Router ()
 function App() {
   return (
     <Routes>
