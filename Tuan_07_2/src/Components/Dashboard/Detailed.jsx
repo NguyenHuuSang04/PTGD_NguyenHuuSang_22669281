@@ -76,7 +76,7 @@ function Detailed() {
             </div>
 
             <div className="card">
-                {/* 3. DataTable */}
+                {/* Get dữ liệu từ API lên dataTable*/}
                 <DataTable
                     value={customers} // Dữ liệu từ API
                     paginator
