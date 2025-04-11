@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
@@ -11,7 +12,6 @@ function Detailed() {
     const [isModalVisible, setIsModalVisible] = useState(false); // State để hiển thị modal chỉnh sửa
     const [isAddModalVisible, setIsAddModalVisible] = useState(false); // State để hiển thị modal thêm người dùng
     const [editingCustomer, setEditingCustomer] = useState(null); // State để lưu khách hàng đang chỉnh sửa
-
     // Fetch dữ liệu từ API khi component được mount
     useEffect(() => {
         fetch("http://localhost:3002/customers")
@@ -19,7 +19,6 @@ function Detailed() {
             .then((data) => setCustomers(data))
             .catch((error) => console.error("Error fetching customers:", error));
     }, []);
-
     // Template để hiển thị ảnh avatar
     const avatarBodyTemplate = (rowData) => {
         return <img src={rowData.avatar} alt={rowData.name} className="w-10 h-10 rounded-full" />;
@@ -48,12 +47,10 @@ function Detailed() {
             )
         );
     };
-
     // Hàm xử lý khi thêm người dùng mới
     const handleAdd = (newCustomer) => {
         setCustomers((prevCustomers) => [...prevCustomers, newCustomer]);
     };
-
     return (
         <>
             <div className="flex mt-5 mb-2 justify-between">
@@ -79,6 +76,7 @@ function Detailed() {
             </div>
 
             <div className="card">
+                {/* 3. DataTable */}
                 <DataTable
                     value={customers} // Dữ liệu từ API
                     paginator
@@ -108,7 +106,6 @@ function Detailed() {
                 customer={editingCustomer}
                 onSave={handleSave}
             />
-
             {/* Modal thêm người dùng */}
             <ModalAdd
                 visible={isAddModalVisible}
