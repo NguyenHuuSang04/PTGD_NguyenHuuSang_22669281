@@ -1,0 +1,139 @@
+{
+    "Recipes":
+    [
+        {
+            "id": 1,
+            "img": "/src/img/Selection (7).png",
+            "name": "Italian-style tomato salad",
+            "time": "14 minutes",
+            "creator": {
+                "avatar": "../avatar/anna-rossi.png",
+                "name": "Anna Rossi",
+                "description": "A refreshing tomato salad inspired by Italian flavors, perfect as a summer appetizer."
+            }
+        },
+        {
+            "id": 2,
+             "img": "/src/img/Selection (8).png",
+            "name": "Spaghetti",
+            "time": "15 minutes",
+            "creator": {
+                "avatar": "../avatar/david-chen.png",
+                "name": "David Chen",
+                "description": "A healthy and colorful spaghetti dish loaded with sautéed vegetables and tender shrimp."
+            }
+        },
+        {
+            "id": 3,
+             "img": "/src/img/Selection (9).png",
+            "name": "Lotus delight salad",
+            "time": "20 minutes",
+            "creator": {
+                "avatar": "../avatar/sophia-nguyen.png",
+                "name": "Sophia Nguyen",
+                "description": "A crisp and vibrant salad made with lotus roots, fresh herbs, and a tangy dressing."
+            }
+        },
+        {
+            "id": 4,
+             "img": "/src/img/Selection (10).png",
+            "name": "Snack cakes",
+            "time": "22 minutes",
+            "creator": {
+                "avatar": "../avatar/michael-brown.png",
+                "name": "Michael Brown",
+                "description": "Delicious mini cakes ideal for tea time or snacking on the go. Soft, sweet, and satisfying."
+            }
+        },
+        {
+            "id": 5,
+             "img": "/src/img/Selection (11).png",
+            "name": "Salad",
+            "time": "32 minutes",
+            "creator": {
+                "avatar": "../avatar/linda-park.png",
+                "name": "Linda Park",
+                "description": "A light and crunchy salad combining crisp cabbage with juicy shrimp and a zesty vinaigrette."
+            }
+        },
+        {
+            "id": 6,
+             "img": "/src/img/Selection (12).png",
+            "name": "Salad with meal",
+            "time": "20 minutes",
+            "creator": {
+                "avatar": "../avatar/kevin-diaz.png",
+                "name": "Kevin Diaz",
+                "description": "A hearty salad mixing tender beans, potatoes, and shrimp in a savory herb dressing."
+            }
+        },
+        {
+            "id": 7,
+             "img": "/src/img/Selection (13).png",
+            "name": "Sunny-side up fried egg",
+            "time": "15 minutes",
+            "creator": {
+                "avatar": "../avatar/emily-white.png",
+                "name": "Emily White",
+                "description": "A breakfast classic, this sunny-side up egg is crispy on the edges and perfectly runny in the center."
+            }
+        },
+        {
+            "id": 8,
+            "img": "/src/img/Selection (10).png",
+            "name": "Lotus delight salad",
+            "time": "20 minutes",
+            "creator": {
+                "avatar": "/src/img/Avatar (1).png",
+                "name": "Sophia Nguyen",
+                "description": "A crisp and vibrant salad made with lotus roots, fresh herbs, and a tangy dressing."
+            }
+        },
+        {
+            "id": 9,
+            "img": "/src/img/Selection (3).png",
+            "name": "Stuffed sticky rice ball",
+            "time": "34 minutes",
+            "creator": {
+                "avatar": "/src/img/Avatar (2).png",
+                "name": "Jennifer King",
+                "description": "Stuffed sticky rice balls: A delightful Asian treat with chewy, glutinous rice and a flavorful surprise filling..."
+            }
+        },
+        {
+            "id": 10,
+             "img": "/src/img/Selection (4).png",
+            "name": "Strawberry smoothie",
+            "time": "40 minutes",
+            "creator": {
+               "avatar": "/src/img/Avatar (3).png",
+                "name": "Matthew Martinez",
+                "description": "Savor the refreshing delight of a strawberry smoothie. Made with ripe strawberries, this creamy blend offers..."
+            }
+        },
+        {
+            "id": 11,
+             "img": "/src/img/Selection (5).png",
+            "name": "Latte Art",
+            "time": "19 minutes",
+            "creator": {
+               "avatar": "/src/img/Avatar (4).png",
+                "name": "Sarah Hill",
+                "description": "Latte art is the skillful craft of creating captivating designs on the surface of a latte..."
+            }
+        },
+        {
+            "id": 12,
+             "img": "/src/img/Selection (6).png",
+            "name": "Butter fried noodles",
+            "time": "16 minutes",
+            "creator": {
+                "avatar": "/src/img/Avatar (5).png",
+                "name": "Julia Lopez",
+                "description": "Butter fried noodles: Savory noodles cooked in butter for a delicious and satisfying meal..."
+            }
+        }
+    ]
+    
+}
+
