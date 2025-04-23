@@ -1,4 +1,4 @@
-// // src/App.jsx
+// src/App.jsx
 import React, { useState } from 'react';
 import ProductList from './components/ProductList';
 import AddProductForm from './components/AddProductForm';
@@ -15,11 +15,16 @@ const App = () => {
     setProducts([...products, { ...newProduct, id: products.length + 1 }]);
   };
 
+  // Hàm xóa sản phẩm
+  const deleteProduct = (id) => {
+    setProducts(products.filter((product) => product.id !== id));
+  };
+
   return (
     <div>
       <h1>Quản lý sản phẩm</h1>
       <AddProductForm onAddProduct={addProduct} />
-      <ProductList products={products} />
+      <ProductList products={products} onDeleteProduct={deleteProduct} />
     </div>
   );
 };
